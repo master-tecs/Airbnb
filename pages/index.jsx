@@ -8,7 +8,7 @@ import Header from "../components/Header";
 
 export default function Home({ exploreData, cardData }) {
   return (
-    <div className="">
+    <div className="bg-gray-50">
       <Head>
         <title>Airbnb App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function Home({ exploreData, cardData }) {
       <Header />
       <Banner />
 
-      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+      <main className="max-w-6xl mx-auto px-8 sm:px-16 shadow-xl bg-white">
         <section className="pt-6">
           <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
 
